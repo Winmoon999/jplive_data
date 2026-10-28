@@ -1,5 +1,49 @@
 {
   "schema_version": 1,
-  "entries": {},
-  "artist_checks": {}
+  "entries": {
+    "https://www.sonymusic.co.jp/artist/ReoNa/info/584090": {
+      "kind": "detail",
+      "first_fetched_at": "2026-10-29T01:46:09+09:00",
+      "artist_ids": [
+        "reona"
+      ],
+      "last_attempt_at": "2026-10-29T01:46:09+09:00",
+      "outcome": "ok",
+      "last_fetched_at": "2026-10-29T01:46:09+09:00"
+    },
+    "https://www.inside-games.jp/release/prtimes/20260811/301369.html": {
+      "kind": "detail",
+      "first_fetched_at": "2026-10-29T01:46:09+09:00",
+      "artist_ids": [
+        "reona"
+      ],
+      "last_attempt_at": "2026-10-29T01:46:09+09:00",
+      "outcome": "ok",
+      "last_fetched_at": "2026-10-29T01:46:09+09:00"
+    },
+    "https://realsound.jp/2025/12/post-2235695.html": {
+      "kind": "detail",
+      "first_fetched_at": "2026-10-29T01:46:09+09:00",
+      "artist_ids": [
+        "yoasobi"
+      ],
+      "last_attempt_at": "2026-10-29T01:46:09+09:00",
+      "outcome": "ok",
+      "last_fetched_at": "2026-10-29T01:46:09+09:00"
+    },
+    "https://www.yoasobi-music.jp/": {
+      "kind": "index",
+      "first_fetched_at": "2026-10-29T01:46:15+09:00",
+      "artist_ids": [
+        "yoasobi"
+      ],
+      "last_attempt_at": "2026-10-29T01:46:15+09:00",
+      "outcome": "error",
+      "last_fetched_at": "2026-10-29T01:46:15+09:00"
+    }
+  },
+  "artist_checks": {
+    "reona": "2026-10-29T01:47:34+09:00",
+    "yoasobi": "2026-10-29T01:47:34+09:00"
+  }
 }

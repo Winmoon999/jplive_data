@@ -118,6 +118,7 @@ def main():
     db = load(args.db, {"events": []})
     artists = load(args.artists, {"artists": []})["artists"]
     watch = [a for a in artists if a.get("watching")]
+    checks = load(Path(args.db).parent / "fetch_log.json", {}).get("artist_checks", {})
     # 只保留 focus_country（預設 JP）的場次；沒有任何符合場次的活動整筆略過
     focus = cfg.get("focus_country", "JP")
     events = []
@@ -163,7 +164,11 @@ def main():
             lines += [render_event(e) + "\n" for e in mine]
             known.update(e["id"] for e in mine)
         else:
-            lines.append("目前沒有已知的未來 Live。\n")
+            checked = checks.get(a["id"])
+            if checked:
+                lines.append(f"已於 {checked[:10]} 檢查，目前沒有已知的未來 Live。\n")
+            else:
+                lines.append("尚未檢查（還沒有抓取紀錄），無法判斷有沒有 Live。\n")
     others = [e for e in events if e["id"] not in known and e["status"] not in ("ended", "cancelled")
               and last_date(e) >= today]
     if others:
