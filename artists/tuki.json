@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artist": {
+    "id": "tuki",
+    "name_ja": "tuki.",
+    "name_en": "tuki.",
+    "name_zh": "tuki.",
+    "aliases": [
+      "tuki",
+      "ツキ"
+    ],
+    "types": [
+      "solo"
+    ],
+    "related_ids": []
+  },
+  "events": [
+    {
+      "id": "20261103-tuki-sendai",
+      "title": "tuki.『秋の修学旅行〜天体観測〜』宮城",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "tuki"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-03",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "仙台サンプラザホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "宮城県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "tuki",
+              "name": "tuki.",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": "2026-07-25T10:00:00+09:00",
+          "end_at": "2026-10-30T18:00:00+09:00",
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/tuki.2026/",
+          "notes": "【2026-10-22 已對照官網】先着一般發售受理中；S指定席13,200円／指定席9,900円（含稅）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://tuki-official.net/contents/1086148",
+      "sources": [
+        {
+          "url": "https://tuki-official.net/contents/1086148",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261122-tuki-fukuoka",
+      "title": "tuki.『秋の修学旅行〜天体観測〜』福岡",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "tuki"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-22",
+          "open_time": null,
+          "start_time": "18:00",
+          "venue_name": "福岡市民ホール 大ホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "福岡県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "tuki",
+              "name": "tuki.",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/tuki.2026/",
+          "notes": "【2026-10-22 已對照官網】e+ 頁面標示「予定枚数終了」（售完）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://tuki-official.net/contents/schedule",
+      "sources": [
+        {
+          "url": "https://tuki-official.net/contents/schedule",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261126-tuki-osaka",
+      "title": "tuki.『秋の修学旅行〜天体観測〜』大阪",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "tuki"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-26",
+          "open_time": null,
+          "start_time": "19:00",
+          "venue_name": "フェスティバルホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "大阪府",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "tuki",
+              "name": "tuki.",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/tuki.2026/",
+          "notes": "【2026-10-22 已對照官網】e+ 頁面標示「予定枚数終了」（售完）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://tuki-official.net/contents/schedule",
+      "sources": [
+        {
+          "url": "https://tuki-official.net/contents/schedule",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261202-tuki-aichi",
+      "title": "tuki.『秋の修学旅行〜天体観測〜』愛知",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "tuki"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-12-02",
+          "open_time": null,
+          "start_time": "19:00",
+          "venue_name": "Niterra日本特殊陶業市民会館 フォレストホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "tuki",
+              "name": "tuki.",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/tuki.2026/",
+          "notes": "【2026-10-22 已對照官網】e+ 頁面標示「予定枚数終了」（售完）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://tuki-official.net/contents/schedule",
+      "sources": [
+        {
+          "url": "https://tuki-official.net/contents/schedule",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261220-tuki-hoshifuru",
+      "title": "tuki.『星降る晩餐会』",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "tuki"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-12-20",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "（官網未記載）",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "神奈川県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "tuki",
+              "name": "tuki.",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://tuki-official.net/contents/schedule",
+          "notes": "【2026-10-22 已對照官網】官網行程表僅列日期與縣市，詳情未讀取"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://tuki-official.net/contents/schedule",
+      "sources": [
+        {
+          "url": "https://tuki-official.net/contents/schedule",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261229-tuki-cdj",
+      "title": "COUNTDOWN JAPAN 26/27（tuki.）",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "tuki"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-12-29",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "（官網未記載）",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "千葉県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "tuki",
+              "name": "tuki.",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://tuki-official.net/contents/schedule",
+          "notes": "【2026-10-22 已對照官網】官網行程表僅列日期與縣市；音樂祭售票請看主辦方"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://tuki-official.net/contents/schedule",
+      "sources": [
+        {
+          "url": "https://tuki-official.net/contents/schedule",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    }
+  ]
+}

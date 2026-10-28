@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artist": {
+    "id": "atarayo",
+    "name_ja": "あたらよ",
+    "name_en": "Atarayo",
+    "name_zh": "あたらよ",
+    "aliases": [
+      "atarayo",
+      "ATARAYO"
+    ],
+    "types": [
+      "group"
+    ],
+    "related_ids": []
+  },
+  "events": [
+    {
+      "id": "20261105-atarayo-kigenzen",
+      "title": "ミーマイナー東名阪対バンツアー「紀元前」",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "group"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "atarayo"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-05",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "渋谷CLUB QUATTRO",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "atarayo",
+              "name": "あたらよ",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://atarayo-jp.com/contents/live",
+          "notes": "【2026-10-22 已對照官網】官網未記載開演時間與售票資訊，請確認"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://atarayo-jp.com/contents/live",
+      "sources": [
+        {
+          "url": "https://atarayo-jp.com/contents/live",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261107-atarayo-kitarock",
+      "title": "KITAROCKLIVE2026",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "group"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "atarayo"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-07",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "北里大学 相模原キャンパス 総合体育館2階アリーナ",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "神奈川県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "atarayo",
+              "name": "あたらよ",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://atarayo-jp.com/contents/live",
+          "notes": "【2026-10-22 已對照官網】都道府縣由會場所在地（相模原）推定；官網未記載時間與售票資訊"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://atarayo-jp.com/contents/live",
+      "sources": [
+        {
+          "url": "https://atarayo-jp.com/contents/live",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    }
+  ]
+}

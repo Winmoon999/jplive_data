@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artists": [
+    {
+      "id": "atarayo",
+      "name_ja": "あたらよ",
+      "name_en": "Atarayo",
+      "name_zh": "あたらよ",
+      "yomi": "あたらよ",
+      "gojuon": "あ",
+      "aliases": [
+        "atarayo",
+        "ATARAYO"
+      ],
+      "types": [
+        "group"
+      ],
+      "file": "artists/atarayo.json",
+      "event_count": 2,
+      "next_date": "2026-11-05"
+    },
+    {
+      "id": "ikuta-lilas",
+      "name_ja": "幾田りら",
+      "name_en": "Lilas Ikuta",
+      "name_zh": "幾田莉拉",
+      "yomi": "いくたりら",
+      "gojuon": "あ",
+      "aliases": [
+        "幾田莉拉",
+        "ikura",
+        "Ikuta Lilas",
+        "幾田りら"
+      ],
+      "types": [
+        "solo"
+      ],
+      "file": "artists/ikuta-lilas.json",
+      "event_count": 0,
+      "next_date": null
+    },
+    {
+      "id": "chihara-minori",
+      "name_ja": "茅原実里",
+      "name_en": "Minori Chihara",
+      "name_zh": "茅原實里",
+      "yomi": "ちはらみのり",
+      "gojuon": "た",
+      "aliases": [
+        "茅原实里",
+        "Chihara Minori"
+      ],
+      "types": [
+        "solo"
+      ],
+      "file": "artists/chihara-minori.json",
+      "event_count": 6,
+      "next_date": "2026-11-08"
+    },
+    {
+      "id": "tuki",
+      "name_ja": "tuki.",
+      "name_en": "tuki.",
+      "name_zh": "tuki.",
+      "yomi": "つき",
+      "gojuon": "た",
+      "aliases": [
+        "tuki",
+        "ツキ"
+      ],
+      "types": [
+        "solo"
+      ],
+      "file": "artists/tuki.json",
+      "event_count": 6,
+      "next_date": "2026-11-03"
+    },
+    {
+      "id": "nishino-kana",
+      "name_ja": "西野カナ",
+      "name_en": "Kana Nishino",
+      "name_zh": "西野加奈",
+      "yomi": "にしのかな",
+      "gojuon": "な",
+      "aliases": [
+        "西野加奈",
+        "Nishino Kana"
+      ],
+      "types": [
+        "solo"
+      ],
+      "file": "artists/nishino-kana.json",
+      "event_count": 0,
+      "next_date": null
+    },
+    {
+      "id": "yoasobi",
+      "name_ja": "YOASOBI",
+      "name_en": "YOASOBI",
+      "name_zh": "YOASOBI",
+      "yomi": "よあそび",
+      "gojuon": "や",
+      "aliases": [
+        "ヨアソビ",
+        "夜遊"
+      ],
+      "types": [
+        "group"
+      ],
+      "file": "artists/yoasobi.json",
+      "event_count": 1,
+      "next_date": "2026-11-07"
+    },
+    {
+      "id": "reona",
+      "name_ja": "ReoNa",
+      "name_en": "ReoNa",
+      "name_zh": "ReoNa",
+      "yomi": "れおな",
+      "gojuon": "ら",
+      "aliases": [
+        "レオナ"
+      ],
+      "types": [
+        "solo"
+      ],
+      "file": "artists/reona.json",
+      "event_count": 7,
+      "next_date": "2026-10-29"
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artist": {
+    "id": "yoasobi",
+    "name_ja": "YOASOBI",
+    "name_en": "YOASOBI",
+    "name_zh": "YOASOBI",
+    "aliases": [
+      "ヨアソビ",
+      "夜遊"
+    ],
+    "types": [
+      "group"
+    ],
+    "related_ids": [
+      "ikuta-lilas"
+    ]
+  },
+  "events": [
+    {
+      "id": "20261024-yoasobi-asia-tour",
+      "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027「超惑星」",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "tour",
+      "types": [
+        "group"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "yoasobi"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-10-24",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "京セラドーム大阪",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "大阪府",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p2",
+          "date": "2026-10-25",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "京セラドーム大阪",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "大阪府",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p3",
+          "date": "2026-11-07",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "バンテリンドーム ナゴヤ",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p4",
+          "date": "2026-11-08",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "バンテリンドーム ナゴヤ",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p5",
+          "date": "2026-11-14",
+          "open_time": "15:30",
+          "start_time": "18:00",
+          "venue_name": "大和ハウス プレミストドーム",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "北海道",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p6",
+          "date": "2026-11-15",
+          "open_time": "14:30",
+          "start_time": "17:00",
+          "venue_name": "大和ハウス プレミストドーム",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "北海道",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p7",
+          "date": "2026-11-28",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "みずほPayPayドーム福岡",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "福岡県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p8",
+          "date": "2026-11-29",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "みずほPayPayドーム福岡",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "福岡県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p9",
+          "date": "2026-12-05",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "東京ドーム",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p10",
+          "date": "2026-12-06",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "東京ドーム",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p7",
+            "p8",
+            "p9",
+            "p10"
+          ],
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://www.yoasobi-music.jp/special/superplanet/",
+          "notes": "【待核對】日期與會場來自第三方媒體彙整（minute.jp，2026/01/20 更新）；官網無法讀取。開演時間與售票資訊未確認，請到官方網站查詢"
+        },
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": [
+            "p5",
+            "p6"
+          ],
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/yoasobi/",
+          "notes": "【草稿・待核對】來源為第三方整理頁（官網當下 503 無法讀取）；標示發售中，請對照官方"
+        },
+        {
+          "phase": "other",
+          "label": "ぴあ",
+          "performance_ids": [
+            "p5",
+            "p6"
+          ],
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://w.pia.jp/t/yoasobi/",
+          "notes": "【草稿・待核對】來源為第三方整理頁（官網當下 503 無法讀取）；標示發售中，請對照官方（Pコード 335-103）"
+        },
+        {
+          "phase": "other",
+          "label": "ローチケ",
+          "performance_ids": [
+            "p5",
+            "p6"
+          ],
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://l-tike.com/yoasobi/",
+          "notes": "【草稿・待核對】來源為第三方整理頁（官網當下 503 無法讀取）；標示發售中，請對照官方（Lコード 12169）"
+        }
+      ],
+      "streaming": null,
+      "official_url": null,
+      "sources": [
+        {
+          "url": "https://www.yoasobi-music.jp/special/superplanet/",
+          "title": null,
+          "level": 5,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "secondary",
+      "lineup_complete": null,
+      "notes": "【待核對】日期與會場來自第三方整理，請對照官方公告。",
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    }
+  ]
+}

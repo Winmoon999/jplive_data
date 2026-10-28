@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artist": {
+    "id": "chihara-minori",
+    "name_ja": "茅原実里",
+    "name_en": "Minori Chihara",
+    "name_zh": "茅原實里",
+    "aliases": [
+      "茅原实里",
+      "Chihara Minori"
+    ],
+    "types": [
+      "solo"
+    ],
+    "related_ids": []
+  },
+  "events": [
+    {
+      "id": "20261108-chihara-minamike",
+      "title": "みなみけ スペシャルイベント2026",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "event",
+      "types": [
+        "solo",
+        "franchise"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "chihara-minori"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-08",
+          "open_time": null,
+          "start_time": "13:30",
+          "venue_name": "TODA HALL & CONFERENCE TOKYO ホールA",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "chihara-minori",
+              "name": "茅原実里",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://minamike-specialevent.com",
+          "notes": "【2026-10-22 已對照官網】2回公演（13:30／18:00）。販售資訊請看活動官網"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://minorichihara.com/",
+      "sources": [
+        {
+          "url": "https://minorichihara.com/",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261114-chihara-violet",
+      "title": "ヴァイオレット・エヴァーガーデン Chamber Concert",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "event",
+      "types": [
+        "solo",
+        "franchise"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "chihara-minori"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-14",
+          "open_time": null,
+          "start_time": "14:30",
+          "venue_name": "ザ・シンフォニーホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "大阪府",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "chihara-minori",
+              "name": "茅原実里",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://violet-evergarden.jp/news/?id=223",
+          "notes": "【2026-10-22 已對照官網】2回公演（14:30／18:00）。販售資訊請看官網"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://minorichihara.com/",
+      "sources": [
+        {
+          "url": "https://minorichihara.com/",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261121-chihara-animaxmusix",
+      "title": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "event",
+      "types": [
+        "solo",
+        "franchise"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "chihara-minori"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-21",
+          "open_time": null,
+          "start_time": "14:30",
+          "venue_name": "横浜アリーナ",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "神奈川県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "chihara-minori",
+              "name": "茅原実里",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://animax.co.jp/events/animaxmusix/",
+          "notes": "【2026-10-22 已對照官網】販售資訊請看官網"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://minorichihara.com/",
+      "sources": [
+        {
+          "url": "https://minorichihara.com/",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261212-chihara-kyo",
+      "title": "京 Premium Live 2026",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "chihara-minori"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-12-12",
+          "open_time": null,
+          "start_time": "16:15",
+          "venue_name": "ロームシアター京都 メインホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "京都府",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "chihara-minori",
+              "name": "茅原実里",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://miyako-premiumlive.jp",
+          "notes": "【2026-10-22 已對照官網】販售資訊請看官網"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://minorichihara.com/",
+      "sources": [
+        {
+          "url": "https://minorichihara.com/",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261220-chihara-anicore",
+      "title": "AniCore 2026",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "event",
+      "types": [
+        "solo",
+        "franchise"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "chihara-minori"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-12-20",
+          "open_time": null,
+          "start_time": "16:00",
+          "venue_name": "COMTEC PORTBASE",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "chihara-minori",
+              "name": "茅原実里",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://anicorefes.com",
+          "notes": "【2026-10-22 已對照官網】販售資訊請看官網"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://minorichihara.com/",
+      "sources": [
+        {
+          "url": "https://minorichihara.com/",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20270403-chihara-linecube",
+      "title": "Minori Chihara Live at LINE CUBE SHIBUYA",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "chihara-minori"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2027-04-03",
+          "open_time": null,
+          "start_time": "18:00",
+          "venue_name": "LINE CUBE SHIBUYA",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "chihara-minori",
+              "name": "茅原実里",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://minorichihara.com/pages/line-cube-shibuya-2027",
+          "notes": "【2026-10-22 已對照官網】官網顯示「先行預約受理中，至 10/27」，截止時刻未確認（未填入提醒）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://minorichihara.com/pages/line-cube-shibuya-2027",
+      "sources": [
+        {
+          "url": "https://minorichihara.com/pages/line-cube-shibuya-2027",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artist": {
+    "id": "nishino-kana",
+    "name_ja": "西野カナ",
+    "name_en": "Kana Nishino",
+    "name_zh": "西野加奈",
+    "aliases": [
+      "西野加奈",
+      "Nishino Kana"
+    ],
+    "types": [
+      "solo"
+    ],
+    "related_ids": []
+  },
+  "events": []
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artist": {
+    "id": "ikuta-lilas",
+    "name_ja": "幾田りら",
+    "name_en": "Lilas Ikuta",
+    "name_zh": "幾田莉拉",
+    "aliases": [
+      "幾田莉拉",
+      "ikura",
+      "Ikuta Lilas",
+      "幾田りら"
+    ],
+    "types": [
+      "solo"
+    ],
+    "related_ids": [
+      "yoasobi"
+    ]
+  },
+  "events": []
+}

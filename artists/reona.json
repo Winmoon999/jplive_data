@@ -1,0 +1,622 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T23:55:00+09:00",
+  "artist": {
+    "id": "reona",
+    "name_ja": "ReoNa",
+    "name_en": "ReoNa",
+    "name_zh": "ReoNa",
+    "aliases": [
+      "レオナ"
+    ],
+    "types": [
+      "solo"
+    ],
+    "related_ids": []
+  },
+  "events": [
+    {
+      "id": "20261024-reona-kobe",
+      "title": "ReoNa Concert Tour 2026 De:TOUR -静脈- 兵庫",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "ended",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-10-24",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "神戸国際会館",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "兵庫県",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ローチケ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://l-tike.com/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ぴあ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://w.pia.jp/t/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261029-reona-shibuya",
+      "title": "ReoNa Concert Tour 2026 De:TOUR -静脈- 東京",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-10-29",
+          "open_time": "17:30",
+          "start_time": "18:30",
+          "venue_name": "LINE CUBE SHIBUYA",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示 Sold out；官網標示 SOLD OUT"
+        },
+        {
+          "phase": "other",
+          "label": "ローチケ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://l-tike.com/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示 Sold out；官網標示 SOLD OUT"
+        },
+        {
+          "phase": "other",
+          "label": "ぴあ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://w.pia.jp/t/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示 Sold out；官網標示 SOLD OUT"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261123-reona-sendai",
+      "title": "ReoNa Concert Tour 2026 De:TOUR -静脈- 宮城",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-11-23",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "トークネットホール仙台（仙台市民会館）大ホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "宮城県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ローチケ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://l-tike.com/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ぴあ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://w.pia.jp/t/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261205-reona-aichi",
+      "title": "ReoNa Concert Tour 2026 De:TOUR -静脈- 愛知",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-12-05",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "Niterra日本特殊陶業市民会館 フォレストホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ローチケ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://l-tike.com/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ぴあ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://w.pia.jp/t/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20261210-reona-sapporo",
+      "title": "ReoNa Concert Tour 2026 De:TOUR -静脈- 北海道",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-12-10",
+          "open_time": "18:00",
+          "start_time": "19:00",
+          "venue_name": "札幌市教育文化会館 大ホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "北海道",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "e+",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://eplus.jp/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ローチケ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://l-tike.com/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        },
+        {
+          "phase": "other",
+          "label": "ぴあ",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://w.pia.jp/t/reona/",
+          "notes": "【2026-10-22 已對照官網】官方頁標示一般發售中（各プレイガイド）"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/587352",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20270306-reona-pia-arena",
+      "title": "ReoNa ONE-MAN Concert 2027 〜逃げて逢おうね〜",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2027-03-06",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "ぴあアリーナMM",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "神奈川県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+          "notes": "【2026-10-22 已對照官網】先行受付 2026/8/25〜8/30 已結束；一般發售日與販售網站官方頁未記載"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    },
+    {
+      "id": "20270307-reona-pia-arena",
+      "title": "ReoNa ONE-MAN Concert 2027 〜やっぱり人が好き〜",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2027-03-07",
+          "open_time": "16:00",
+          "start_time": "17:00",
+          "venue_name": "ぴあアリーナMM",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "神奈川県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "other",
+          "label": "公式",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+          "notes": "【2026-10-22 已對照官網】先行受付 2026/8/25〜8/30 已結束；一般發售日與販售網站官方頁未記載"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+          "title": null,
+          "level": 1,
+          "retrieved_at": "2026-10-22T12:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": null,
+      "notes": null,
+      "first_seen_at": "2026-10-22T12:00:00+09:00",
+      "last_changed_at": null,
+      "last_verified_at": "2026-10-22T12:00:00+09:00"
+    }
+  ]
+}
