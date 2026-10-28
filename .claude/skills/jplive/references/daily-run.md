@@ -31,6 +31,14 @@
 7. 執行 `python scripts/report.py`，報告寫入 `reports/`。
 8. 回覆一段簡短摘要：本次新增幾筆、變更幾筆、哪些藝人沒有新資訊、哪些來源抓取失敗。
 
+## 環境限制（2026-10-29 試跑發現）
+
+- 雲端環境的 WebFetch 只能讀「WebSearch 結果裡出現的網址」或使用者提供的網址。直接輸入藝人官網首頁（例如 yoasobi-music.jp）會被拒絕（URL_NOT_ON_ALLOWLIST）。被拒絕時不要重試，用 `fetch_log.py mark ... --outcome error` 記錄，改從搜尋結果找頁面。
+- 因此「一覽頁」實際上多是搜尋結果頁；發現新活動要靠每天的 WebSearch，而不是讀官網的 Live 一覽。
+- WebSearch 結果通常只有標題與網址，沒有內文，需要再用 WebFetch 讀取頁面。
+- 事務所／唱片公司的官方公告頁（如 sonymusic.co.jp/artist/…）常出現在搜尋結果且可讀，是首選來源。
+- 官方來源讀不到時，才退而使用新聞轉載（等級 5），並把 `confidence` 設為 `secondary`、在 `notes` 註明。
+
 ## 失敗處理
 
 - 某個藝人查詢失敗：該藝人**不要**執行 `artist-done`，這樣隔次執行會再試；其他藝人照常處理。

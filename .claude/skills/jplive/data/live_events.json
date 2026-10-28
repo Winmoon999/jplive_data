@@ -1,5 +1,583 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T21:00:00+09:00",
-  "events": []
+  "updated_at": "2026-10-29T01:47:16+09:00",
+  "events": [
+    {
+      "id": "20261003-reona-de-tour-vein",
+      "title": "ReoNa Concert Tour 2026 \"De:TOUR -静脈-\"",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "tour",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-10-03",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "浦安市文化会館 大ホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "千葉県",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p2",
+          "date": "2026-10-04",
+          "open_time": "16:00",
+          "start_time": "17:00",
+          "venue_name": "浦安市文化会館 大ホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "千葉県",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p3",
+          "date": "2026-10-20",
+          "open_time": "18:00",
+          "start_time": "19:00",
+          "venue_name": "福岡国際会議場",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "福岡県",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p4",
+          "date": "2026-10-24",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "神戸国際会館",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "兵庫県",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p5",
+          "date": "2026-10-29",
+          "open_time": "17:30",
+          "start_time": "18:30",
+          "venue_name": "LINE CUBE SHIBUYA",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p6",
+          "date": "2026-11-23",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "トークネットホール仙台（仙台市民会館）大ホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "宮城県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p7",
+          "date": "2026-12-05",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "Nittera日本特殊陶業市民会館 フォレストホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p8",
+          "date": "2026-12-10",
+          "open_time": "18:00",
+          "start_time": "19:00",
+          "venue_name": "札幌市教育文化会館 大ホール",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "北海道",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "lottery",
+          "label": "プレイガイド抽選受付（イープラス／ローチケ／チケットぴあ）",
+          "performance_ids": null,
+          "start_at": null,
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": null,
+          "notes": "受付期間・結果発表日・価格は公式ページに記載なし。"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+          "title": "ReoNa 公式（ソニーミュージック）お知らせ 2026-06-08",
+          "level": 1,
+          "retrieved_at": "2026-10-29T01:47:16+09:00"
+        },
+        {
+          "url": "https://www.inside-games.jp/release/prtimes/20260811/301369.html",
+          "title": "インサイド（PR TIMES 配信）2026-08-11",
+          "level": 5,
+          "retrieved_at": "2026-10-29T01:47:16+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": true,
+      "notes": "日期、場地、開場/開演時間は公式ページとPR TIMES記事で一致。10/3〜10/24は開催済み。",
+      "first_seen_at": "2026-10-29T01:47:16+09:00",
+      "last_changed_at": "2026-10-29T01:47:16+09:00",
+      "last_verified_at": "2026-10-29T01:47:16+09:00"
+    },
+    {
+      "id": "20270306-reona-one-man-concert-2027",
+      "title": "ReoNa ONE-MAN Concert 2027 \"ハロー、アンハッピー\" at ぴあアリーナMM",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "concert",
+      "types": [
+        "solo"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "reona"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2027-03-06",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "ぴあアリーナMM",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "神奈川県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": "〜逃げて逢おうね〜"
+        },
+        {
+          "id": "p2",
+          "date": "2027-03-07",
+          "open_time": "16:00",
+          "start_time": "17:00",
+          "venue_name": "ぴあアリーナMM",
+          "venue_name_en": null,
+          "city": null,
+          "prefecture": "神奈川県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "reona",
+              "name": "ReoNa",
+              "credit_as": null
+            }
+          ],
+          "notes": "〜やっぱり人が好き〜"
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "official_presale",
+          "label": "先行受付（13th Single「Lv.1 職業：人間」封入シリアルナンバー）",
+          "performance_ids": null,
+          "start_at": "2026-08-25T10:00:00+09:00",
+          "end_at": "2026-08-30T23:59:00+09:00",
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": "対象CD封入のシリアルナンバー付きチラシが必要（公式ページ記載）",
+          "url": null,
+          "notes": "受付は終了済み。"
+        },
+        {
+          "phase": "official_presale",
+          "label": "アニメイト先行",
+          "performance_ids": null,
+          "start_at": "2026-07-27T10:00:00+09:00",
+          "end_at": "2026-08-23T23:59:00+09:00",
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": null,
+          "url": null,
+          "notes": "PR TIMES転載記事のみの情報。公式ページでは未確認。受付は終了済み。"
+        }
+      ],
+      "streaming": null,
+      "official_url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+      "sources": [
+        {
+          "url": "https://www.sonymusic.co.jp/artist/ReoNa/info/584090",
+          "title": "ReoNa 公式（ソニーミュージック）お知らせ 2026-06-08",
+          "level": 1,
+          "retrieved_at": "2026-10-29T01:47:16+09:00"
+        },
+        {
+          "url": "https://www.inside-games.jp/release/prtimes/20260811/301369.html",
+          "title": "インサイド（PR TIMES 配信）2026-08-11",
+          "level": 5,
+          "retrieved_at": "2026-10-29T01:47:16+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": true,
+      "notes": "一般発売・追加先行の情報は未確認。日程は公式ページ記載。",
+      "first_seen_at": "2026-10-29T01:47:16+09:00",
+      "last_changed_at": "2026-10-29T01:47:16+09:00",
+      "last_verified_at": "2026-10-29T01:47:16+09:00"
+    },
+    {
+      "id": "20261024-yoasobi-asia-dome-stadium-tour",
+      "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "tour",
+      "types": [
+        "group"
+      ],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": null,
+      "artist_ids": [
+        "yoasobi"
+      ],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2026-10-24",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "京セラドーム大阪",
+          "venue_name_en": "Kyocera Dome Osaka",
+          "city": null,
+          "prefecture": "大阪府",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p2",
+          "date": "2026-10-25",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "京セラドーム大阪",
+          "venue_name_en": "Kyocera Dome Osaka",
+          "city": null,
+          "prefecture": "大阪府",
+          "country": "JP",
+          "status": "ended",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p3",
+          "date": "2026-11-07",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "バンテリンドーム ナゴヤ",
+          "venue_name_en": "Vantelin Dome Nagoya",
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p4",
+          "date": "2026-11-08",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "バンテリンドーム ナゴヤ",
+          "venue_name_en": "Vantelin Dome Nagoya",
+          "city": null,
+          "prefecture": "愛知県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p5",
+          "date": "2026-11-14",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "大和ハウス プレミストドーム",
+          "venue_name_en": "Daiwa House Premist Dome",
+          "city": null,
+          "prefecture": "北海道",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p6",
+          "date": "2026-11-15",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "大和ハウス プレミストドーム",
+          "venue_name_en": "Daiwa House Premist Dome",
+          "city": null,
+          "prefecture": "北海道",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p7",
+          "date": "2026-11-28",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "みずほPayPayドーム福岡",
+          "venue_name_en": "Mizuho PayPay Dome Fukuoka",
+          "city": null,
+          "prefecture": "福岡県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p8",
+          "date": "2026-11-29",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "みずほPayPayドーム福岡",
+          "venue_name_en": "Mizuho PayPay Dome Fukuoka",
+          "city": null,
+          "prefecture": "福岡県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p9",
+          "date": "2026-12-05",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "東京ドーム",
+          "venue_name_en": "Tokyo Dome",
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "p10",
+          "date": "2026-12-06",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "東京ドーム",
+          "venue_name_en": "Tokyo Dome",
+          "city": null,
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [
+            {
+              "artist_id": "yoasobi",
+              "name": "YOASOBI",
+              "credit_as": null
+            }
+          ],
+          "notes": null
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "fc_presale",
+          "label": "ファンクラブ「YOA'S」会員先行",
+          "performance_ids": null,
+          "start_at": "2026-01-04T12:00:00+09:00",
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "buyer_restriction": "ファンクラブ「YOA'S」会員向け（二次情報）",
+          "url": null,
+          "notes": "OTOMO（Music Natalie転載）の記載。受付は終了済みとみられるが、一般発売の情報は未確認。"
+        }
+      ],
+      "streaming": null,
+      "official_url": null,
+      "sources": [
+        {
+          "url": "https://otomo.net/contents/1031771?locale=en",
+          "title": "OTOMO（出典：Music Natalie）2026-01-01",
+          "level": 5,
+          "retrieved_at": "2026-10-29T01:47:16+09:00"
+        },
+        {
+          "url": "https://kai-you.net/article/96241",
+          "title": "CINRA/KAI-YOU 2026-08-13（国内5都市を確認）",
+          "level": 5,
+          "retrieved_at": "2026-10-29T01:47:16+09:00"
+        }
+      ],
+      "confidence": "secondary",
+      "lineup_complete": true,
+      "notes": "尚未在官方來源確認。日期與場地僅出自 OTOMO（轉載 Music Natalie），開場/開演時間未公布。部分來源稱此巡演為「超惑星」（SUPER PLANET），名稱未經官方確認。巡演含海外場次，本資料庫僅記錄日本國內。",
+      "first_seen_at": "2026-10-29T01:47:16+09:00",
+      "last_changed_at": "2026-10-29T01:47:16+09:00",
+      "last_verified_at": "2026-10-29T01:47:16+09:00"
+    }
+  ]
 }
