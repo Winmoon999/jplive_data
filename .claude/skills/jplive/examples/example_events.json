@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T21:00:00+09:00",
+  "events": [
+    {
+      "id": "20270320-sample-artist-hall-tour",
+      "title": "サンプルアーティスト ホールツアー 2027",
+      "title_en": "Sample Artist Hall Tour 2027",
+      "title_zh": "範例藝人 Hall Tour 2027",
+      "kind": "tour",
+      "types": ["solo"],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": "サンプル事務所",
+      "artist_ids": ["sample-artist"],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2027-03-20",
+          "open_time": "17:00",
+          "start_time": "18:00",
+          "venue_name": "サンプルホール",
+          "venue_name_en": "Sample Hall",
+          "city": "東京都",
+          "prefecture": "東京都",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [{ "artist_id": "sample-artist", "name": "サンプルアーティスト", "credit_as": null }],
+          "notes": null
+        },
+        {
+          "id": "p2",
+          "date": "2027-03-27",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "サンプル大阪ホール",
+          "venue_name_en": null,
+          "city": "大阪市",
+          "prefecture": "大阪府",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [{ "artist_id": "sample-artist", "name": "サンプルアーティスト", "credit_as": null }],
+          "notes": "開場／開演時間尚未公布"
+        }
+      ],
+      "ticket_phases": [
+        {
+          "phase": "fc_presale",
+          "label": "FC先行（抽選）",
+          "performance_ids": ["p1"],
+          "start_at": "2026-11-01T12:00:00+09:00",
+          "end_at": "2026-11-10T23:59:00+09:00",
+          "result_at": "2026-11-15T12:00:00+09:00",
+          "price_text": "全席指定 8,800円（税込）",
+          "url": "https://example.com/tickets/fc",
+          "notes": null
+        },
+        {
+          "phase": "general",
+          "label": "一般発売",
+          "performance_ids": null,
+          "start_at": "2027-01-23T10:00:00+09:00",
+          "end_at": null,
+          "result_at": null,
+          "price_text": null,
+          "url": "https://example.com/tickets/general",
+          "notes": "大阪場售票資訊尚未公布"
+        }
+      ],
+      "streaming": { "available": null, "label": null, "url": null, "live_viewing": null },
+      "official_url": "https://example.com/live",
+      "sources": [
+        {
+          "url": "https://example.com/live",
+          "title": "（虛構）官方 Live 資訊",
+          "level": 1,
+          "retrieved_at": "2026-10-28T21:00:00+09:00"
+        }
+      ],
+      "confidence": "official",
+      "lineup_complete": true,
+      "notes": "虛構範例",
+      "first_seen_at": "2026-10-28T21:00:00+09:00",
+      "last_verified_at": "2026-10-28T21:00:00+09:00"
+    },
+    {
+      "id": "20270815-sample-summer-fest",
+      "title": "サンプル夏フェス 2027",
+      "title_en": null,
+      "title_zh": null,
+      "kind": "festival",
+      "types": ["festival"],
+      "franchise": null,
+      "franchise_unit": null,
+      "organizer": "サンプル実行委員会",
+      "artist_ids": [],
+      "status": "scheduled",
+      "performances": [
+        {
+          "id": "p1",
+          "date": "2027-08-15",
+          "open_time": null,
+          "start_time": null,
+          "venue_name": "サンプルアリーナ",
+          "venue_name_en": null,
+          "city": "さいたま市",
+          "prefecture": "埼玉県",
+          "country": "JP",
+          "status": "scheduled",
+          "performers": [{ "artist_id": null, "name": "（第1弾）サンプルバンドA", "credit_as": null }],
+          "notes": "出演者は第1弾のみ公布"
+        }
+      ],
+      "ticket_phases": [],
+      "streaming": null,
+      "official_url": null,
+      "sources": [
+        {
+          "url": "https://example.com/news",
+          "title": "（虛構）整合情報站",
+          "level": 5,
+          "retrieved_at": "2026-10-28T21:00:00+09:00"
+        }
+      ],
+      "confidence": "secondary",
+      "lineup_complete": false,
+      "notes": "尚未在官方來源確認；陣容尚未全部公布。",
+      "first_seen_at": "2026-10-28T21:00:00+09:00",
+      "last_verified_at": "2026-10-28T21:00:00+09:00"
+    }
+  ]
+}

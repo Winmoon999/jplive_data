@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "artists": [
+    {
+      "id": "chihara-minori",
+      "types": ["solo"],
+      "name_ja": "茅原実里",
+      "name_en": "Minori Chihara",
+      "name_zh": "茅原實里",
+      "aliases": ["茅原实里", "Chihara Minori"],
+      "agency": null,
+      "official_url": null,
+      "franchise": null,
+      "related_ids": [],
+      "watching": true,
+      "notes": "聲優兼歌手。也要檢查相關企劃或聯動演出。"
+    },
+    {
+      "id": "atarayo",
+      "types": ["group"],
+      "name_ja": "あたらよ",
+      "name_en": "Atarayo",
+      "name_zh": "あたらよ",
+      "aliases": ["atarayo", "ATARAYO"],
+      "agency": null,
+      "official_url": null,
+      "franchise": null,
+      "related_ids": [],
+      "watching": true,
+      "notes": null
+    },
+    {
+      "id": "yoasobi",
+      "types": ["group"],
+      "name_ja": "YOASOBI",
+      "name_en": "YOASOBI",
+      "name_zh": "YOASOBI",
+      "aliases": ["ヨアソビ", "夜遊"],
+      "agency": null,
+      "official_url": null,
+      "franchise": null,
+      "related_ids": ["ikuta-lilas"],
+      "watching": true,
+      "notes": "成員 ikura 即幾田りら；兩者的活動要分開記錄。"
+    },
+    {
+      "id": "tuki",
+      "types": ["solo"],
+      "name_ja": "tuki.",
+      "name_en": "tuki.",
+      "name_zh": "tuki.",
+      "aliases": ["tuki", "ツキ"],
+      "agency": null,
+      "official_url": null,
+      "franchise": null,
+      "related_ids": [],
+      "watching": true,
+      "notes": "名稱含句點，搜尋時日文與英文都要試。"
+    },
+    {
+      "id": "nishino-kana",
+      "types": ["solo"],
+      "name_ja": "西野カナ",
+      "name_en": "Kana Nishino",
+      "name_zh": "西野加奈",
+      "aliases": ["西野加奈", "Nishino Kana"],
+      "agency": null,
+      "official_url": null,
+      "franchise": null,
+      "related_ids": [],
+      "watching": true,
+      "notes": "目前的活動狀態需以官方公告為準，查不到新活動時不要推測。"
+    },
+    {
+      "id": "reona",
+      "types": ["solo"],
+      "name_ja": "ReoNa",
+      "name_en": "ReoNa",
+      "name_zh": "ReoNa",
+      "aliases": ["レオナ"],
+      "agency": null,
+      "official_url": null,
+      "franchise": null,
+      "related_ids": [],
+      "watching": true,
+      "notes": null
+    },
+    {
+      "id": "ikuta-lilas",
+      "types": ["solo"],
+      "name_ja": "幾田りら",
+      "name_en": "Lilas Ikuta",
+      "name_zh": "幾田莉拉",
+      "aliases": ["幾田莉拉", "ikura", "Ikuta Lilas", "幾田りら"],
+      "agency": null,
+      "official_url": null,
+      "franchise": null,
+      "related_ids": ["yoasobi"],
+      "watching": true,
+      "notes": "同時是 YOASOBI 的 ikura；個人活動與 YOASOBI 活動分開記錄。"
+    }
+  ]
+}

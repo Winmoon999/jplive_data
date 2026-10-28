@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "focus_country": "JP",
+  "run_frequency": "daily",
+  "timezone": "Asia/Tokyo",
+  "index_refetch_per_day": 1,
+  "recheck_pending_days": 7,
+  "error_retry_hours": 24,
+  "ticket_window_days": 14,
+  "report_dir": "reports",
+  "report_format": "md"
+}
