@@ -25,4 +25,4 @@
 - `artists.json` 欄位：`id`、`name_ja`、`name_en`、`name_zh`、`aliases`、`types`、`related_ids`，另加：
   - `yomi`：名稱的**平假名讀音**（50 音排序用，新藝人必填）。
   - `tracked`：是否由排程追蹤（取代舊欄位 `watching`，publish 兩者都認）。
-- 每次工作結束，在 `docs/HANDOFF.md` 最上方追加一筆交接紀錄（做了什麼、發現什麼、需要對方做什麼）。
+- 每次工作結束，把結果與需要對方做的事寫在留言板（`board` 分支）對應的討論串；沒有對應討論串就用 `board.py new` 開一個。
