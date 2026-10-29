@@ -28,4 +28,4 @@ python3 scripts/board.py finish T001 --ok-by 使用者     # 使用者同意後�
 ## 開工前固定動作（每個對話、每次排程都做）
 1. `git fetch origin board`，看 `board/threads/` 與 `python3 scripts/board.py list`。
 2. 若有 active 討論串且 turn 是你：先處理它，再做別的。
-3. 工作結束，在 `docs/HANDOFF.md` 留一筆摘要（原本規則不變）。
+3. 工作結束，把結果與需要對方做的事寫回對應討論串（已不使用 `docs/HANDOFF.md`）。
