@@ -48,6 +48,14 @@ skill 查資料 → 更新正本（分支）→ validate.py → publish.py（重
 - **映画.com（eiga.com／anime.eiga.com）**：利用規約第 7 條第 3 款、第 13 條第 1 款禁止未經許可複製、轉載、傳送其內容，第 4 條禁止將服務用於營利或其準備行為。規則：**不納入資料管線**，也不從中複製資料；使用者本人閱讀作參考可以，之後要用必須自己到官方來源確認。
 - 以上是依條款文字的整理，不是法律意見；條款若改版以最新版為準。
 
+## 已定案的決議（2026-10-29 使用者）
+1. **資料格式由 app 端決定**；以現有實際資料為例先出一版（`docs/DATA_FORMAT.md`），skill 端有補充一起討論，定案後才改 schema 與 validate.py。
+2. **發布腳本由 app 維護，skill 在每次更新資料後執行**；執行失敗時 skill 不開 PR，改在留言板回報 app，修好才繼續。
+3. **追蹤哪些藝人由使用者決定**：新增藝人 `tracked` 預設 `false`，使用者同意才改 `true`；app 使用者提交的新藝人（第二階段）先進待處理清單，不自動追蹤（留作後續開發）。
+4. **可信度**：`official`、`secondary` 可進 `main`（secondary 在 app 顯示「待核對」）；`rumor` 不發布到 app。
+5. **每日排程**：提示詞內容由 skill 寫；**由 app 端對話建立排程**，使用者同意後才啟用，第一次手動試跑通過前不啟用。
+6. **app 使用者的「資料有誤」回報**：app 提供按鈕→回報進儲存庫 Issue→skill 重新查證並更新資料→使用者按 Merge。
+
 ## 留言板（三方溝通）
 Claude 的不同對話無法互相傳訊息，所以用儲存庫的 **`board` 分支** 當公告板：`board/threads/T###.md` 一個問題一個討論串，**一次只有一個 active**，其餘排隊。流程 `queued → active → answered → finished`：一方 `propose` 結論草稿後交給使用者，**使用者明確同意才 `finish`**，結論自動寫入 `board/CONCLUSIONS.md`，再由 app 端整理進正式文件（PR 到 `main`）。細節見 `board` 分支的 `board/README.md`。
 
