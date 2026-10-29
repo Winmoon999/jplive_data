@@ -7,6 +7,8 @@
   board.py new "標題" --from app --to skill   建立新討論串（status=queued，若目前沒有 active 則直接 active）
   board.py reply T001 --who skill "內容"      追加一則回覆，並自動切換 turn、狀態（active→answered 需用 propose）
   board.py propose T001 --who skill "結論草稿"  提出結論，狀態改 answered，等使用者確認
+  board.py pause T001 --reason "原因"       擱置討論串（不再算 active，不能回覆；用 resume 恢復成 queued）
+  board.py resume T001                       把 paused 改回 queued
   board.py finish T001 --ok-by 使用者           【需使用者明確同意後才可執行】標記 finished、寫入 CONCLUSIONS.md、啟動下一個 queued
 """
 import argparse, datetime, pathlib, re, sys
@@ -14,7 +16,7 @@ import argparse, datetime, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TH = ROOT / "board" / "threads"
 CONC = ROOT / "board" / "CONCLUSIONS.md"
-STATUS = ("queued", "active", "answered", "finished")
+STATUS = ("queued", "active", "answered", "finished", "paused")
 SIDES = ("app", "skill", "human")
 HDR = re.compile(r"^- (status|from|to|turn|created|finished): *(.*)$", re.M)
 
@@ -135,12 +137,30 @@ def cmd_finish(a):
         write_header(q[0], status="active", turn=q[0]["to"]); print("已啟動下一個：", q[0]["id"])
     print("已完成", a.tid); return 0
 
+def cmd_pause(a):
+    t = find(a.tid)
+    if t.get("status") == "finished": sys.exit("已 finished，不能擱置")
+    write_header(t, status="paused", turn="-")
+    t["path"].write_text(t["text"].replace("\n## 結論", f"\n### {now()} 擱置\n原因：{a.reason}\n\n## 結論", 1), encoding="utf-8")
+    ts = threads()
+    if not any(x.get("status") in ("active", "answered") for x in ts):
+        q = [x for x in ts if x.get("status") == "queued"]
+        if q: write_header(q[0], status="active", turn=q[0]["to"]); print("已啟動下一個：", q[0]["id"])
+    print("已擱置", a.tid); return 0
+
+def cmd_resume(a):
+    t = find(a.tid)
+    if t.get("status") != "paused": sys.exit("只有 paused 可以 resume")
+    write_header(t, status="queued", turn=t["to"]); print("已改回 queued", a.tid); return 0
+
 def main():
     ap = argparse.ArgumentParser(); sp = ap.add_subparsers(dest="cmd", required=True)
     sp.add_parser("list"); sp.add_parser("check")
     n = sp.add_parser("new"); n.add_argument("title"); n.add_argument("--from", dest="from", choices=SIDES, required=True); n.add_argument("--to", choices=SIDES, required=True); n.add_argument("--body", default="")
     for nm in ("reply", "propose"):
         r = sp.add_parser(nm); r.add_argument("tid"); r.add_argument("--who", choices=SIDES, required=True); r.add_argument("body")
+    pa = sp.add_parser("pause"); pa.add_argument("tid"); pa.add_argument("--reason", required=True)
+    rs = sp.add_parser("resume"); rs.add_argument("tid")
     f = sp.add_parser("finish"); f.add_argument("tid"); f.add_argument("--ok-by", required=True, help="必須是使用者明確同意，例如：使用者")
     a = ap.parse_args()
     if a.cmd == "list": return cmd_list()
@@ -149,6 +169,8 @@ def main():
     if a.cmd == "reply": return cmd_reply(a)
     if a.cmd == "propose": return cmd_reply(a, True)
     if a.cmd == "finish": return cmd_finish(a)
+    if a.cmd == "pause": return cmd_pause(a)
+    if a.cmd == "resume": return cmd_resume(a)
 
 if __name__ == "__main__":
     sys.exit(main())
